@@ -1,0 +1,132 @@
+body {
+  font-family: OCR A Std, monospace
+}
+
+h1,h2,h4, footer, p {
+  color: white;
+  font-family: OCR A Std, monospace	;
+  align-self: center;
+  text-align: center;
+}
+
+footer {
+  margin-top: 25px;
+  margin-bottom: 0;
+  /* height: 100%;
+  width: 100%;
+  background-color: rgb(147, 147, 147); */
+}
+
+body {
+  background-color: #202020	
+}
+
+label {
+  display: block;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 5px solid darkgray;
+  margin-bottom: 10px;
+  background-image: url("https://www.vfpresets.com/wp-content/uploads/2020/08/grayscale-definition.png");
+  background-position-x: right;
+  /* background-position: center; */
+  margin-top: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: underline dotted;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white; 
+}
+
+a:hover{
+  color: darkgray;
+}
+
+.project-list {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+
+.project-image {
+  border-radius: 10%;
+  border: 2px solid darkgrey;
+  filter: grayscale(1);
+  transition-duration: .5s;
+}
+
+.project-descriptions {
+  font-size: medium;
+  background-color: darkgrey;
+  max-width: 350px;
+  border: 2px solid darkgray;
+  border-radius: 8%;
+  border-collapse: separate; 
+  border-spacing: 3em 3em;
+}
+
+.about-container {
+  display:flex;
+  justify-content: space-around;
+}
+
+.about-content-container {
+  display: flex;
+  align-self: center;
+  width: 65%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-images {
+  flex-grow: 2;
+  border-radius: 10%;
+  border: 2px solid white;
+  filter: grayscale(1);
+  transition-duration: .5s; 
+  margin: 5px;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
