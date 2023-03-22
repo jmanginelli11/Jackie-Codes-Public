@@ -2,7 +2,7 @@ body {
   font-family: OCR A Std, monospace
 }
 
-h1,h2,h4, footer, p {
+h1,h2,h4, p {
   color: white;
   font-family: OCR A Std, monospace	;
   align-self: center;
@@ -10,11 +10,13 @@ h1,h2,h4, footer, p {
 }
 
 footer {
-  margin-top: 25px;
-  margin-bottom: 0;
-  /* height: 100%;
-  width: 100%;
-  background-color: rgb(147, 147, 147); */
+  font-family: OCR A Std, monospace	;
+  align-self: center;
+  text-align: center;
+}
+
+.footertext {
+  color: #383838;
 }
 
 body {
@@ -28,9 +30,8 @@ label {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 nav a {
@@ -74,7 +75,7 @@ a:hover{
   color: white;
   text-align: center;
   display: flex;
-  flex-direction: wrap;
+  flex-direction: row;
   justify-content: space-evenly;
   max-width: 100%;
 }
@@ -90,7 +91,17 @@ a:hover{
   font-size: medium;
   background-color: darkgrey;
   max-width: 350px;
-  border: 2px solid darkgray;
+  border: 2px solid white;
+  border-radius: 8%;
+  border-collapse: separate; 
+  border-spacing: 3em 3em;
+}
+
+.about-descriptions {
+  font-size: medium;
+  background-color: darkgrey;
+  max-width: 450px;
+  border: 2px solid white;
   border-radius: 8%;
   border-collapse: separate; 
   border-spacing: 3em 3em;
