@@ -3,7 +3,7 @@ Portfolio Website
 
 ## Jackie Codes Deployed Website
 
-This repo powers Jackie-Codes, my portfolio website built with these two hands and lots of coffee. 
+This repo powers Jackie Codes, my portfolio website built with these two hands and lots of coffee. 
 
 Deployed link: https://jackie-codes.onrender.com/
 
