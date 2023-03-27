@@ -1,4 +1,4 @@
-# Jackie-Codes-Public
+# Jackie-Codes
 Portfolio Website
 
 ## Jackie Codes Deployed Website
